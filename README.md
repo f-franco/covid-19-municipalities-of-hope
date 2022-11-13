@@ -8,7 +8,9 @@
 
 By summer 2020, the federal government in Mexico presented a program that would lead the re-opening of the economy, *"municipios de la esperanza"* (municipalities of hope).
 
-![This is the map that the federal government of Mexico showed when unveiling the program.](https://www.alcaldesdemexico.com/wp-content/uploads/2020/05/mapa-municipios-768x452-1.jpg)
+![](https://miro.medium.com/max/4800/0*fjayNL4CD2na1uIc.png)
+
+> *This map is similar to the one shown by Mexico's federal government during the presentation of this policy.*
 
 Although the map does a good work to show the geographic extension of the chosen municipalities, it does little to reflect the amount of people that would benefit. This notebook shows the execution process of building a visualization with which better evaluate the extent of this program in Mexico with respect to the population. There are two main parts to this process, data transformation and cartogram plotting.
 
@@ -22,4 +24,8 @@ To properly plot the data in a way that was useful to appreciate the impact of t
 
 ## Result
 
-![This visualization shows the chosen municipalities (purple) and the remaining ones (yellow).](https://miro.medium.com/max/4800/1*Ds6JdMLPlX3o1s2lmY7kVQ.png)
+Each colored polygon represents a municipality. The color of each polygon indicates whether the municipality was classified as "municipio de la esperanza" (purple) or not (yellow). The size of each polygon is proportional to the population of each municipality, and the original borders are included for easier viewing.
+
+![](https://miro.medium.com/max/4800/1*Ds6JdMLPlX3o1s2lmY7kVQ.png)
+
+To see a more detailed look at the building process, you can visit my post in [Medium](https://f-franco.medium.com/covid-19-the-measure-of-hope-73b2242f56c).

@@ -1,4 +1,4 @@
-# COVID-19 in Mexico: Visualizing the municipalities of hope
+# COVID-19: Visualizing the municipalities of hope in Mexico
 
 ![](https://img.shields.io/badge/programming-r-276DC3?style=for-the-badge&logo=R)
 

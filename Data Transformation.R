@@ -1,6 +1,4 @@
-dir <- "C:/Users/santa/Desktop/COVID"
-setwd(dir)
-
+# Loading required packages
 library(stringr)
 library(dplyr)
 
